@@ -1,0 +1,1 @@
+{"eos_token": "</s>", "unk_token": "<unk>", "pad_token": "<pad>", "extra_ids": 0, "additional_special_tokens": null, "sp_model_kwargs": {}, "name_or_path": "/content/drive/MyDrive/W266/flores101_mm100_175M/sentencepiece.bpe.model", "tokenizer_class": "T5Tokenizer"}
