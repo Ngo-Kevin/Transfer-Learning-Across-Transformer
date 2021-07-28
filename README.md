@@ -30,15 +30,11 @@ Recent work in translation 1, 2 has focused on creating large-scale multilingual
     * [Training Dataset (Task2)](http://data.statmt.org/wmt21/multilingual-task/small_task2_filt_v2.tar.gz). This is only required to run [analysis_dataset_size](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/analysis_dataset_size.ipynb).
     * [Validation/Test Dataset](https://dl.fbaipublicfiles.com/flores101/dataset/flores101_dataset.tar.gz)
 
-<br>
 
 - To recreate the results of the paper,<br>
     - To convert all individual files into a dataset, run the [dataset_creation](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/dataset_creation.ipynb) notebook.
-
     - To obtain the values from tables 1 in the paper, run the [analysis_dataset_size](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/analysis_dataset_size.ipynb) notebook.
-
     - To create Figure 2 and Figure 3 in the paper, run the [analysis_dataset_tokenized_size](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/analysis_dataset_tokenized_size.ipynb) notebook.
-
     - To create the model, train the model, and generate the test BLEU score, run the [pipeline](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/pipeline.ipynb) notebook with adjusted settings.
 
 <br>
