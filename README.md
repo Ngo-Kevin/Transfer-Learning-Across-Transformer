@@ -10,14 +10,12 @@ With many thanks to our advisors: Joachim Rahmfeld and Drew Plant for their guid
 <br>
 
 ## Abstract
----------------------------
 
 Recent work in translation 1, 2 has focused on creating large-scale multilingual transformer models capable of achieving state-of-the-art performance. These mo- dels attempt to leverage the shared structure of multiple languages to improve down-stream task per- formance in low-resource languages. In this work, we explore the potential of transfer learning between transformer models using two recently released multilingual transformer models (M2M-100 1, T5 3) by utilizing the M2M-100’s embeddings within the T5’s architecture in order to expand T5’s translation capabilities to low resource languages such as Esto- nian and Macedonian. Our experiments suggest that usage of T5’s pretrained encoder & decoder weights improves model performance on previously untrained low-resource language translation even with small training dataset compared to random initialization of the weights. Augmenting the training with pre-learnt multilingual embeddings improves the performance further but this improvement is only seen with larger training set sizes. 
 
 <br>
 
 ## Major Requirement
----------------------------
 - torch, torchvision (PyTorch) 1.9 or higher
 
 - transformers (Hugging Face) 4.8 or higher
@@ -25,7 +23,6 @@ Recent work in translation 1, 2 has focused on creating large-scale multilingual
 <br>
 
 ## Instructions
----------------------------
 - To obtain the pretrained model, base tokenizer, and dataset, download the links and extract the files within the cloned repo. Please go to [Facebook's Large Scale Multilingual Translation Task](http://www.statmt.org/wmt21/large-scale-multilingual-translation-task.html) for full details.
     * [Pretrained Model-Small](https://dl.fbaipublicfiles.com/flores101/pretrained_models/flores101_mm100_175M.tar.gz)
     * [Pretrained Model-Large](https://dl.fbaipublicfiles.com/flores101/pretrained_models/flores101_mm100_615M.tar.gz)
@@ -47,5 +44,4 @@ Recent work in translation 1, 2 has focused on creating large-scale multilingual
 <br>
 
 ## Hardware and run-time expectations
----------------------------
 Authors used NVIDIA Tesla V100 graphics cards on various cloud instances for training. Training the model with 120K examples in a batch size of 32 for 30 epoch took ~20 hours.
