@@ -6,7 +6,7 @@ Prakhar Maini, UC Berkeley MIDS Program (prakharmaini@berkeley.edu)
 With many thanks to our advisors: Joachim Rahmfeld and Drew Plant for their guidance on this research.
 
 ### **Paper:** [Transfer Learning across Transformer Models on Multi Language Translation Task ](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/TL-MMT.pdf).
-
+[Presentation Slides](https://github.com/Ngo-Kevin/Transfer-Learning-Across-Transformer/blob/main/project_presentation/W266_Project_Presentation.pdf)
 <br>
 
 ## Abstract
